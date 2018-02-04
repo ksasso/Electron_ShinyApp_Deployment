@@ -1,5 +1,5 @@
 
-**This is the first attempt to combine Electron with [R-Portable](https://sourceforge.net/projects/rportable/files/R-Portable/) (version 3.4.0) and [RStudio Shiny](http://shiny.rstudio-staging.com/) package to enable desktop deliverty of Electron Applications that run standalone with R and Shiny Applications embedded.
+**This is the first attempt to combine Electron with [R-Portable](https://sourceforge.net/projects/rportable/files/R-Portable/) (version 3.4.0) and [RStudio Shiny](http://shiny.rstudio-staging.com/) package to enable desktop deliverty of Electron Applications that run standalone with R and Shiny Applications embedded.**
 
 # electron-quick-start
 
