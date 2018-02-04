@@ -32,9 +32,9 @@ npm –version (v5.2)
 # Update Python System Environemnt Variable
 Be sure system environment variables include C:\Python27
 # For Shiny Applictions, install any library dependencies not already included in cloned git repo
-Run R.exe to start R-Portable and check if needed libraries are installed
+R.exe #run this to start R-Portable and check if needed libraries are installed
 # NPM install
-npm install # run this from within git electron repo
+npm install
 npm start
 # Electron Packager Install
 npm i –g electron-packager
