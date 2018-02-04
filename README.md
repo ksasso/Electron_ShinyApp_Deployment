@@ -1,3 +1,6 @@
+
+**This is the first attempt to combine Electron with [R-Portable](https://sourceforge.net/projects/rportable/files/R-Portable/) (version 3.4.0) and [RStudio Shiny](http://shiny.rstudio-staging.com/) package to enable desktop deliverty of Electron Applications that run standalone with R and Shiny Applications embedded.
+
 # electron-quick-start
 
 **Clone and run for a quick way to see an Electron in action.**
@@ -23,8 +26,22 @@ To clone and run this repository you'll need [Git](https://git-scm.com) and [Nod
 git clone https://github.com/electron/electron-quick-start
 # Go into the repository
 cd electron-quick-start
-# Install dependencies and run the app
-npm install && npm start
+# Confirm (or install) latest NodeJS and NPM versions
+node –version  (v8.4.0)
+npm –version (v5.2)
+# Update Python System Environemnt Variable
+Be sure system environment variables include C:\Python27
+# For Shiny Applictions, install any library dependencies not already included in cloned git repo
+Run R.exe to start R-Portable and check if needed libraries are installed
+# NPM install
+npm install # run this from within git electron repo
+npm start
+# Electron Packager Install
+npm i –g electron-packager
+clone – npm install 
+# Build Electron Windows Executable
+npm run package-win  #NOTE: if you wish to change the Application Executable name from the default app.R you need to change that in the package.json package-win script command
+
 ```
 
 Learn more about Electron and its API in the [documentation](http://electron.atom.io/docs/latest).
