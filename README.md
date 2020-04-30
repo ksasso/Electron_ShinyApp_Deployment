@@ -1,4 +1,4 @@
-#
+# PLEASE USE THE NEWER VERSION OF THIS REPO FOUND HERE: [ColumbusCollaboratory/photon](https://github.com/ColumbusCollaboratory/photon)
 # ----------------------------------------------
 
 ***This is the first attempt to combine Electron with [R-Portable](https://sourceforge.net/projects/rportable/files/R-Portable/) (version 3.4.0) and [RStudio Shiny](https://cran.r-project.org/web/packages/shiny/index.html) package to deliver Electron Applications that run standalone with R and Shiny.***
